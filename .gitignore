@@ -5,6 +5,9 @@
 # prototyping directories
 ._*
 
+# Local docker overrides
+docker-compose.override.yml
+
 # Runtime output
 pids
 *.pid

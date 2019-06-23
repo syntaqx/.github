@@ -1,4 +1,4 @@
-# .github
+# ${project}
 
 - https://help.github.com/articles/creating-a-default-community-health-file-for-your-organization
 - https://help.github.com/en/articles/creating-a-template-repository
@@ -38,4 +38,4 @@ git clone git@github.com:syntaqx/.github.git && cd $(basename "$_" .git)
 
 [mit]: https://opensource.org/licenses/MIT
 
-`.github` is open source software released under the [MIT license][mit].
+This project is open source software released under the [MIT license][mit].

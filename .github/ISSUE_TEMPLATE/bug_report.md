@@ -1,37 +1,52 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: You're experiencing issue(s) that diverge from the documented behavior.
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+When filing a bug, please include the following headings if possible. Any
+example text in this template can be deleted (and hopefully is replaced by
+yours!)
 
-**To Reproduce**
-Steps to reproduce the behavior:
+## Overview
 
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+A paragraph of two about the issue you're experiencing.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Reproduction steps
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+Steps to reproduce this issue, example:
 
-**Desktop (please complete the following information):**
+1. Type this command:
 
-- OS: [e.g. iOS]
-- Browser [e.g. chrome, safari]
-- Version [e.g. 22]
+   ```sh
+   echo "borkin stoof"
+   ```
 
-**Smartphone (please complete the following information):**
+2. Then, type this command:
 
-- Device: [e.g. iPhone6]
-- OS: [e.g. iOS8.1]
-- Browser [e.g. stock browser, safari]
-- Version [e.g. 22]
+   ```sh
+   echo "Betch you weren't expecting DOUBLE QUOTES?!"
+   ```
 
-**Additional context**
-Add any other context about the problem here.
+3. Then, run `reboot`
+4. Why did my computer restart?
+
+## Operating system and environment details
+
+OS, Architecture, and any other information you can provide about your
+environment. For unix environments you can replace the values with their output.
+
+- **Operating system:** `cat /etc/os-release`
+- **Kernal version:** `uname -sr`
+- **Architecture:** `uname -m`
+
+## Relevant observability (logs, traces, metrics...)
+
+Include the appropriate log fragments, traces and/or metrics. If longer than a
+few dozen lines, please include the URL to a [gist](https://gist.github.com/) of
+the fragments instead of posting it in the issue.
+
+## Additional relevant information and summary
+
+It's highly encouraged to provide as much relevant information as possible, feel
+free to add anything else you feel is useful and help define what a resolution
+looks like.

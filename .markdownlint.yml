@@ -6,3 +6,5 @@ MD013:
 MD033: false
 MD034: false
 MD041: false
+MD046:
+  style: fenced

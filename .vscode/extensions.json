@@ -8,6 +8,7 @@
     "mikestead.dotenv",
     "ms-azuretools.vscode-docker",
     "ms-vscode.go",
+    "msjsdiag.debugger-for-chrome",
     "timonwong.shellcheck"
   ]
 }
