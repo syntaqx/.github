@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "bungcip.better-toml",
+    "davidanson.vscode-markdownlint",
     "editorconfig.editorconfig",
     "foxundermoon.shell-format",
     "mauve.terraform",

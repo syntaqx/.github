@@ -1,0 +1,80 @@
+# golangci-lint - (and presumably future tooling from their suite)
+# https://github.com/golangci/golangci-lint
+
+linters-settings:
+  govet:
+    check-shadowing: true
+  errcheck:
+    exclude: .errcheckignore
+  golint:
+    min-confidence: 0
+  gofmt:
+    simplify: true
+  goimports:
+    local-prefixes: github.com/syntaqx/.github
+  gocyclo:
+    min-complexity: 10
+  maligned:
+    suggest-new: true
+  dupl:
+    threshold: 100
+  goconst:
+    min-len: 2
+    min-occurrences: 2
+  depguard:
+    list-type: blacklist
+    include-go-root: false
+    packages:
+      - github.com/davecgh/go-spew/spew
+  misspell:
+    locale: US
+    ignore-words: []
+  lll:
+    line-length: 120
+  gocritic:
+    # Toggle checks and tags based on stability and implemtability for our needs
+    # To see all tags and checks, run: `GL_DEBUG=gocritic golangci-lint`
+    # See https://github.com/go-critic/go-critic#usage -> section "Tags".
+    enabled-tags:
+      - performance
+      - style
+      - experimental
+    disabled-checks:
+      - wrapperFunc
+      - exitAfterDefer
+
+linters:
+  enable-all: true
+  disable:
+    - maligned
+    - prealloc
+    - gochecknoglobals
+  disable-all: false
+  fast: false
+
+issues:
+  exclude-rules:
+    # Exclude some linters from running on tests files.
+    - path: _test\.go
+      linters:
+        - gocyclo
+        - errcheck
+        - dupl
+        - gosec
+
+    # Exclude known linters from partially hard-vendored code,
+    # which is impossible to exclude via "nolint" comments.
+    - path: internal/hmac/
+      text: "weak cryptographic primitive"
+      linters:
+        - gosec
+
+    # Exclude some staticcheck messages
+    - linters:
+        - staticcheck
+      text: "SA9003:"
+
+    # Exclude lll issues for long lines with go:generate
+    - linters:
+        - lll
+      source: "^//go:generate "
