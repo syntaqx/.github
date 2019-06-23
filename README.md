@@ -5,6 +5,16 @@
 
 Default community health files and reusable repository configuration templates.
 
+> **Note:** This repository lives in a weird middleground between functional and
+> templatized as some things are easier to share than others. Feel free to poke
+> around and adapt things as you'd like.
+
+## Features
+
+- Community health files
+- Dotfiles
+- Repository template
+
 ## Prerequisites
 
 - [Git](https://git-scm.com/)
@@ -17,6 +27,12 @@ Default community health files and reusable repository configuration templates.
 ```sh
 git clone git@github.com:syntaqx/.github.git && cd $(basename "$_" .git)
 ```
+
+## Development
+
+### Dependencies
+
+- [Go](https://golang.org/) 1.12 or newer
 
 ## License
 

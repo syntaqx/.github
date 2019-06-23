@@ -1,25 +1,33 @@
-# Contributing
+## Contributing
 
-[semver]: http://semver.org/
+[released]: https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license
 
-When contributing to this repository, please first discuss the change you wish
-to make via issue, email, or any other method with the owners of this repository
-before making a change.
+Hi there! We're thrilled that you'd like to contribute to this project. Your
+help is essential for keeping it great.
 
-Please note we have a code of conduct, please follow it in all your interactions
-with the project.
+Contributions to this project are [released][released] to the public under the
+project's open source license.
 
-## Pull Request Process
+## Submitting a pull request
 
-1. Ensure any install or build dependencies are removed before the end of the
-   layer when performing a build.
-2. Update the `README.md` or `docs` with details of change to the project, this
-   includes new flags, environment variables, exposed ports, useful file
-   locations and container parameters.
-3. Specify how your change should affect our versioning scheme when merged. For
-   more information on how we implement versioning, check out the [semver][]
-   documentation. PRs will be grouped into logical version groups so that we
-   aren't incrementing the version on every merge.
-4. You may merge the Pull Request in once you have the sign-off of other
-   developers, or if you do not have permission to do that, you may request a
-   reviewer to merge it for you.
+1. Fork and clone the repository
+2. Create a new branch: `git checkout -b my-branch-name`
+3. Make your change, add tests, and make sure the tests still pass
+4. Push to your fork and submit a pull request
+5. Pat your self on the back and wait for your pull request to be reviewed and merged.
+
+Here are a few things you can do that will increase the likelihood of your pull
+request being accepted:
+
+- Follow standards for style and code quality
+- Write tests.
+- Keep your change as focused as possible. If there are multiple changes you
+  would like to make that are not dependent upon each other, consider submitting
+  them as separate pull requests.
+- Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
+
+## Resources
+
+- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
+- [Using Pull Requests](https://help.github.com/articles/about-pull-requests/)
+- [GitHub Help](https://help.github.com)
