@@ -1,4 +1,4 @@
-# ${project}
+# .github - Default files and a template ${project}
 
 - https://help.github.com/articles/creating-a-default-community-health-file-for-your-organization
 - https://help.github.com/en/articles/creating-a-template-repository
