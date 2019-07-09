@@ -20,6 +20,11 @@ Default community health files and reusable repository configuration templates.
 - [Git](https://git-scm.com/)
 - [Docker](https://www.docker.com/)
 
+### Tooling
+
+- [direnv](https://direnv.net/)
+- [git-crypt](https://www.agwa.name/projects/git-crypt/)
+
 ## Installation
 
 ### From source
