@@ -7,7 +7,7 @@ Hello! Thanks for your contribution! Please check and answer the following
 questions before opening your pull request.
 
 > **Please note:** that your PR will be closed without comment if you do not
-> check the boxes above and provide ALL requested informtion.
+> check the boxes above and provide ALL requested information.
 
 - [ ] Have you followed our [contributors guide][contributing]?
 - [ ] Why is this change being made? What value does it add?
