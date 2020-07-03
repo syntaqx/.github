@@ -1,14 +1,9 @@
 {
   "recommendations": [
-    "bungcip.better-toml",
-    "davidanson.vscode-markdownlint",
     "editorconfig.editorconfig",
-    "foxundermoon.shell-format",
-    "mauve.terraform",
+    "golang.go",
     "mikestead.dotenv",
     "ms-azuretools.vscode-docker",
-    "ms-vscode.go",
-    "msjsdiag.debugger-for-chrome",
     "timonwong.shellcheck"
   ]
 }

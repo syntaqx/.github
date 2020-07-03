@@ -1,36 +1,6 @@
 # gitignore - Specifies intentionally untracked files and folders to ignore.
 # https://git-scm.com/docs/gitignore
 
-# prototyping directories
-._*
-
-# Local docker overrides
-docker-compose.override.yml
-
-# Runtime output
-pids
-*.pid
-*.seed
-*.pid.lock
-*.log
-
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-
-# Test binary, built with `go test -c`
-*.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
-
-# Vendored dependencies
-vendor/
-
-# Node stuff, because I always run yarn/npm in the wrong directories.
-/package.json
-/yarn.lock
-/node_modules
+# local env files
+.env.local
+.env.*.local

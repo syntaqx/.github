@@ -1,9 +1,12 @@
 # .github - Default files and a template ${project}
 
-- https://help.github.com/articles/creating-a-default-community-health-file-for-your-organization
-- https://help.github.com/en/articles/creating-a-template-repository
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/syntaqx/.github/blob/master/LICENSE)
 
-Default community health files and reusable repository configuration templates.
+- <https://help.github.com/articles/creating-a-default-community-health-file-for-your-organization>
+- <https://help.github.com/en/articles/creating-a-template-repository>
+
+Default community health files and reusable repository boilerplate files that
+I tend to need over and over.
 
 > **Note:** This repository lives in a weird middleground between functional and
 > templatized as some things are easier to share than others. Feel free to poke
@@ -37,7 +40,7 @@ git clone git@github.com:syntaqx/.github.git && cd $(basename "$_" .git)
 
 ### Dependencies
 
-- [Go](https://golang.org/) 1.12 or newer
+- [Go](https://golang.org/)
 
 ## License
 

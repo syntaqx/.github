@@ -1,7 +1,7 @@
 version: '3.7'
 services:
 
-  mysql-database:
+  mysql:
     image: mysql
     environment:
       MYSQL_USER: root
@@ -9,30 +9,23 @@ services:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       MYSQL_ROOT_PASSWORD: ""
       MYSQL_DATABASE: project
-    ports:
-      - 3306
-    networks:
-      - backend
     volumes:
       - mysql-data:/var/lib/mysql
+    ports:
+      - 3306
 
-  postgres-database:
+  postgres:
     image: postgres
-    shm_size: '256mb'
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: ""
-      POSTGRES_DB: project
-    ports:
-      - 5432
-    networks:
-      - backend
     volumes:
       - postgres-data:/var/lib/postgresql/data
+    ports:
+      - 5432
 
 volumes:
-  mysql-data: {}
-  postgres-data: {}
-
-networks:
-  backend: {}
+  mysql-data:
+    driver: local
+  postgres-data:
+    driver: local

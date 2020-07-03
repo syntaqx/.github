@@ -3,7 +3,9 @@
 
 .*
 .git*
+.idea
 .vscode
 .dockerignore
-*Dockerfile*
-*.md
+[Dd]ockerfile
+LICENSE
+README.md
