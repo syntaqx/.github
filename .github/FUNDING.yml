@@ -1,10 +1,9 @@
-# funding.yml - Describes project funding options to display on sponsor buttons
+# FUNDING.yml - Describes project funding options to display on sponsor buttons
 # https://help.github.com/en/articles/displaying-a-sponsor-button-in-your-repository
 # https://help.github.com/en/articles/about-github-sponsors
 
-github: [syntaqx]
+github: [ syntaqx ]
 issue_hunt: syntaqx
 ko_fi: syntaqx
 open_collective: syntaqx
 patreon: syntaqx
-custom: [ "https://www.paypal.me/syntaqx", syntaqx.com ]
