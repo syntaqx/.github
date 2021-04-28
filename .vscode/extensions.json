@@ -1,9 +1,0 @@
-{
-  "recommendations": [
-    "editorconfig.editorconfig",
-    "golang.go",
-    "mikestead.dotenv",
-    "ms-azuretools.vscode-docker",
-    "timonwong.shellcheck"
-  ]
-}

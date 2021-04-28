@@ -1,5 +1,1 @@
-# CODEOWNERS - Defines the individuals/teams responsible for code with globs.
-# @NOTE: This is an optional feature for pull requests, be sure to enable it.
-# https://help.github.com/articles/about-codeowners/
-
 * @syntaqx

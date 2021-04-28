@@ -1,6 +1,0 @@
-# gitignore - Specifies intentionally untracked files and folders to ignore.
-# https://git-scm.com/docs/gitignore
-
-# local env files
-.env.local
-.env.*.local
