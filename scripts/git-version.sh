@@ -1,5 +1,5 @@
-#!/usr/bin/bash
-set -euo pipefail
+#!/usr/bin/env bash
+set -euf -o pipefail
 
 # parse the current git commit hash
 COMMIT=$(git rev-parse HEAD)
